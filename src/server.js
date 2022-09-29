@@ -24,5 +24,5 @@ app.use("/users", userRoute)
 app.use("/comments", commentRoute)
 
 app.listen(port, () => {
-  console.log(`App running in http://localhost:${port}`)
+  console.log(`App  running in http://localhost:${port}`)
 })
